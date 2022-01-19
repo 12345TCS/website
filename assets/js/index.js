@@ -13,3 +13,8 @@ function openForm(){
 function closeForm(){
     form.style.left = "100%";
 }
+
+function showAlert(){
+    window.alert("We've received your details and we'll contact you soon.");
+    setTimeout(closeForm, 2000);
+}
