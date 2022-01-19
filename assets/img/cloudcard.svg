@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="240"
+   height="150"
+   viewBox="0 0 63.5 39.687501"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="cloudcard.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="2.4865144"
+     inkscape:cx="128.49312"
+     inkscape:cy="80.232795"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1310"
+       x="-0.059128838"
+       y="-0.10251737"
+       width="1.1182577"
+       height="1.2050347">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.3401205"
+         id="feGaussianBlur1312" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path822"
+       style="fill:#c0c0c0;fill-opacity:1;stroke:none;stroke-width:0.948527;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1310)"
+       d="M 31.001538,4.1611146 C 24.23886,4.1629926 18.365032,8.8146732 16.813449,15.396954 16.086595,15.235022 15.34418,15.153263 14.599505,15.153121 8.9710601,15.152635 4.4080307,19.715229 4.407978,25.343674 c 5.27e-5,5.628446 4.5630802,10.191044 10.191527,10.190555 3.413576,-0.0021 31.973379,-0.197103 36.005182,-0.194984 4.305221,8e-5 8.099705,-4.478449 8.195983,-8.385909 0.09656,-3.918962 -3.490318,-8.805306 -7.795917,-8.805222 -0.491436,0.0017 -0.981608,0.04982 -1.463981,0.143772 0.04337,-0.247642 0.0655,-0.498547 0.06606,-0.749963 -2.11e-4,-2.431415 -1.971213,-4.402414 -4.402628,-4.40263 -0.239924,8.46e-4 -0.479374,0.02133 -0.715965,0.06121 C 42.241098,7.7317278 36.913993,4.1612668 31.00154,4.1611202 Z"
+       sodipodi:nodetypes="ccccccaccccccc"
+       inkscape:export-filename="C:\Users\Admin\Desktop\cloudcard.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path868"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.948527;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 31.001538,4.1611146 C 24.23886,4.1629926 18.365032,8.8146732 16.813449,15.396954 16.086595,15.235022 15.34418,15.153263 14.599505,15.153121 8.9710601,15.152635 4.4080307,19.715229 4.407978,25.343674 c 5.27e-5,5.628446 4.5630802,10.191044 10.191527,10.190555 3.413576,-0.0021 31.973379,-0.197103 36.005182,-0.194984 4.305221,8e-5 8.099705,-4.478449 8.195983,-8.385909 0.09656,-3.918962 -3.490318,-8.805306 -7.795917,-8.805222 -0.491436,0.0017 -0.981608,0.04982 -1.463981,0.143772 0.04337,-0.247642 0.0655,-0.498547 0.06606,-0.749963 -2.11e-4,-2.431415 -1.971213,-4.402414 -4.402628,-4.40263 -0.239924,8.46e-4 -0.479374,0.02133 -0.715965,0.06121 C 42.241098,7.7317278 36.913993,4.1612668 31.00154,4.1611202 Z"
+       sodipodi:nodetypes="ccccccaccccccc"
+       inkscape:export-filename="C:\Users\Admin\Desktop\cloudcard.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>

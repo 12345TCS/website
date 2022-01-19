@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Industry leading cloud services at your fingertips.">
+    <meta name="theme-color" content="#6464FF">
+    <title>Cloud Magician | Services</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/services.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+    <header id="navbar">
+        <nav>
+            <a href="index.html" class="branding"><svg id="cloud-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="48" height="48"><path id="cloud" d="M20.83,13A3,3,0,0,1,18,17H6a3,3,0,1,1,2-5.2A5,5,0,0,1,13,7a4.94,4.94,0,0,1,2,.42" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><polyline id="primary-2" data-name="primary" points="13 11 15 13 20 8" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></polyline></svg> &nbsp;&nbsp;&nbsp;<h1 class="brand-name">Cloud Magician</h1>&nbsp; &nbsp;<p class="poweredby">powered by TCS</p></a>
+            <div class="menu">
+                <a href="index.html" class="menu-links">Home</a>
+                <a href="#" class="menu-links" onmouseover="showservices()">Services</a>
+                <a href="about.html" class="menu-links">About Us</a>
+            </div>
+            <svg id="menu-alt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="36" height="36"><path id="primary" d="M3,18H21M3,12H21M3,6H21" style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg>
+        </nav>
+    </header>
+
+    <div class="hero" id="hero">
+        <div class="section-heading"><h1>Our Specialisations</h1></div>
+        <div class="hero-wrapper">
+            <div class="services-card service1">
+                <div class="services-card--content">
+                    <h3 class="services-card--title">Cloud Migration</h3>
+                    <p class="services-card--desc">We're here to help you in every step of bringing your business's technological infrastructure on cloud.</p>
+                </div>
+            </div>
+            <div class="services-card service2">
+                <div class="services-card--content">
+                    <h3 class="services-card--title">CI / CD</h3>
+                    <p class="services-card--desc">CI/CD implementation using all types of Automation tools like Jenkins, Bitbucket, Gitlab, ArgoCD, Teamcity.</p>
+                </div>
+            </div>
+            <div class="services-card service3">
+                <div class="services-card--content">
+                    <h3 class="services-card--title">Security</h3>
+                    <p class="services-card--desc">Experts in cyber security including Web Application Firewall (WAF) and Splunk.</p>
+                </div>
+            </div>
+            <div class="services-card service4">
+                <div class="services-card--content">
+                    <h3 class="services-card--title">Implementation & Monitoring</h3>
+                    <p class="services-card--desc">Monitoring web servers using different tools like Prometheus, Grafana, Splunk, Newrelic etc.</p>
+                </div>
+            </div>
+            <div class="services-card service5">
+                <div class="services-card--content">
+                    <h3 class="services-card--title">Code Testing & Bug Fixing</h3>
+                    <p class="services-card--desc">Code testing and bug fixing for deploying robust applications services using Sonarqube.</p>
+                </div>
+            </div>
+            <div class="services-card service6">
+                <div class="services-card--content">
+                    <h3 class="services-card--title">All AWS, Azure, GCP Services</h3>
+                    <p class="services-card--desc">We offer all kinds of AWS/Azure/Gcp services scale & automate your business and maximize your profit.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Below mentioned wrapper will be visible to smartphone users only -->
+        <div class="mobile-hero-wrapper">
+
+            <div class="mobile-service-card-container">
+                <div class="mobile-service-card" onclick="openForm()">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/22/22/11/cloud-computing-2001090_960_720.jpg" class="mobile-service-card--img" />
+                    <h2 class="mobile-service-card--title">Cloud Migration</h2>
+                    <p class="mobile-service-card--desc">We're here to help you in every step of bringing your business's technological infrastructure on cloud.</p>
+                </div>
+                <div class="mobile-service-card" onclick="openForm()">
+                    <img src="https://www.deanna.dev/images/cicd.png" class="mobile-service-card--img" />
+                    <h2 class="mobile-service-card--title">CI / CD</h2>
+                    <p class="mobile-service-card--desc">CI/CD implementation using automation tools like Jenkins, Bitbucket, Gitlab, ArgoCD, Teamcity.</p>
+                </div>
+            </div>
+
+            <div class="mobile-service-card-container">
+                <div class="mobile-service-card" onclick="openForm()">
+                    <img src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="mobile-service-card--img" />
+                    <h2 class="mobile-service-card--title">Code Testing & Bug Fixing</h2>
+                    <p class="mobile-service-card--desc">Code testing and bug fixing services using Sonarqube.</p>
+                </div>
+                <div class="mobile-service-card" onclick="openForm()">
+                    <img src="https://i.pcmag.com/imagery/articles/01zU35AJIGBtH8jr1uw11Qd-12..v1616112217.jpg" class="mobile-service-card--img" />
+                    <h2 class="mobile-service-card--title">Security</h2>
+                    <p class="mobile-service-card--desc">Experts in cyber security including Web Application Firewall (WAF) and Splunk.</p>
+                </div>
+            </div>
+
+            <div class="mobile-service-card-container">
+                <div class="mobile-service-card" onclick="openForm()">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=815&q=80" class="mobile-service-card--img" />
+                    <h2 class="mobile-service-card--title">Implementation & Monitoring</h2>
+                    <p class="mobile-service-card--desc">Monitoring web servers using different tools like Prometheus, Grafana, Splunk, Newrelic etc.</p>
+                </div>
+                <div class="mobile-service-card" onclick="openForm()">
+                    <img src="https://leadingteknz.com/wp-content/uploads/2021/07/leadingteknz-aws-azure-gcp.png" class="mobile-service-card--img" />
+                    <h2 class="mobile-service-card--title">All AWS, Azure, GCP Services</h2>
+                    <p class="mobile-service-card--desc">We offer all kinds of AWS/Azure/Gcp services scale & automate your business and maximize your profit.</p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Mobile responsive wrapper ends here -->
+    </div>
+
+    
+    <div class="other-services">
+        <div class="section-heading"><h1>Our Other Services</h1></div>
+        <br><br>
+        <div class="other-services-card" onclick="openForm()" data-aos="fade-down" data-aos-offset="120" data-aos-duration="1000">
+            <h3 class="other-services--title">Experts in Solution Architect</h3>
+            <br>
+            <p class="other-services--desc">Industry standard advisories for small to large enterprises to expand and manage their technological infrastructure.</p>
+        </div>
+        <div class="other-services-card" onclick="openForm()" data-aos="fade-down" data-aos-offset="120" data-aos-duration="1000">
+            <h3 class="other-services--title">Security / Vulnerability Testing</h3>
+            <br>
+            <p class="other-services--desc">Security/vulnerability testing and implemention using various tools like Blackduck, Fortify etc.</p>
+        </div>
+        <div class="other-services-card" onclick="openForm()" data-aos="fade-down" data-aos-offset="120" data-aos-duration="1000">
+            <h3 class="other-services--title">Linux Administration</h3>
+            <br>
+            <p class="other-services--desc">Full fledged Linux Administration and services tailored for your business needs.</p>
+        </div>
+        <div class="other-services-card" onclick="openForm()" data-aos="fade-down" data-aos-offset="120" data-aos-duration="1000">
+            <h3 class="other-services--title">Experts in Configuration Management Tools</h3>
+            <br>
+            <p class="other-services--desc">We have expertise in configuration management tools including Chef, Ansible, Puppet and Saltstack</p>
+        </div>
+        <div class="other-services-card" onclick="openForm()" data-aos="fade-down" data-aos-offset="120" data-aos-duration="1000">
+            <h3 class="other-services--title">Support for all operational work</h3>
+            <br>
+            <p class="other-services--desc">We have dedicated support team to handle all of your operational workload.</p>
+        </div>
+        <div class="other-services-card" onclick="openForm()" data-aos="fade-down" data-aos-offset="120" data-aos-duration="1000">
+            <h3 class="other-services--title">Expertise in orchestration tools</h3>
+            <br>
+            <p class="other-services--desc">Expertise in orchestration tools Kubernetes, Docker and Swarm.</p>
+        </div>
+        <div class="other-services-card" onclick="openForm()" data-aos="fade-down" data-aos-offset="120" data-aos-duration="1000">
+            <h3 class="other-services--title">APIs Testing</h3>
+            <br>
+            <p class="other-services--desc">We'll test your APIs before launching the final product in the market through tools like Postman, Swagger, etc.</p>
+        </div>
+        <div class="other-services-card" onclick="openForm()" data-aos="fade-down" data-aos-offset="120" data-aos-duration="1000">
+            <h3 class="other-services--title">Job Scheduling & Monitoring</h3>
+            <br>
+            <p class="other-services--desc">Automated job scheduling and monitoring services through Airflow and Flower.</p>
+        </div>
+        <div class="other-services-card" onclick="openForm()" data-aos="fade-down" data-aos-offset="120" data-aos-duration="1000">
+            <h3 class="other-services--title">Database Management</h3>
+            <br>
+            <p class="other-services--desc">Make sure your database is robust and performs well when operational. Consider our database management services using tools like Snowflake</p>
+        </div>
+        <div class="other-services-card" onclick="openForm()" data-aos="fade-down" data-aos-offset="120" data-aos-duration="1000">
+            <h3 class="other-services--title">Building Data Pipeline</h3>
+            <br>
+            <p class="other-services--desc">Data pipeline building using Kafka.</p>
+        </div>
+        <div class="other-services-card" onclick="openForm()" data-aos="fade-down" data-aos-offset="120" data-aos-duration="1000">
+            <h3 class="other-services--title">Cloud Management</h3>
+            <br>
+            <p class="other-services--desc">Cloud management by Terraform.</p>
+        </div>
+        <div class="other-services-card" onclick="openForm()" data-aos="fade-down" data-aos-offset="120" data-aos-duration="1000">
+            <h3 class="other-services--title">L1, L2 & L3 Level of Engineers</h3>
+            <br>
+            <p class="other-services--desc">We have L1, L2 & L3 level of engineers to provide regular backups of databases and 24/7 monitoring.</p>
+        </div>
+    </div>
+
+    <section id="popup-section">
+        <div class="popup-box">
+            <img src="assets/img/team.jpg" id="popup-img">
+            <br>
+            <div class="popup-content">
+                <h1 id="popup-title">Cloud Magician Services Name</h1>
+                <p id="popup-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quis commodi voluptas facere dolores ex reprehenderit neque consequuntur quisquam. Blanditiis, natus culpa? Dolorum, ea neque.</p>
+            </div>
+            <br>
+            <div class="popup-btns">
+                <a href="#" class="getquote popupbtn" onclick="openForm()"><p>Get A Quote</p></a>
+                <a href="https://wa.me/919311763530/" class="popupchat popupbtn"><p>Chat With An Expert</p></a>
+            </div>
+        </div>
+        <div id="closebtn" onclick="hidePopup()"><p>X</p></div>
+    </section>
+
+    <section id="contact-section">
+        <h1>Expert advice, just a click away!</h1>
+        <p>Fill this short form and one of our executives will call you shortly.</p>
+        <form action="#" class="contact-form">
+            <div class="form-column">
+                <label for="name"><h3>Name</h3></label>
+                <input type="text" name="name" id="name" placeholder="eg: Tony Stark">
+            </div>
+            <div class="form-column">
+                <label for="email"><h3>Email</h3></label>
+                <input type="email" name="email" id="email" placeholder="eg: youremail@gmail.com">
+            </div>
+            <div class="form-column">
+                <label for="phone"><h3>Phone</h3></label>
+                <input type="tel" name="phone" id="phone" placeholder="eg: 9311763530">
+            </div>
+            <div class="form-column">
+                <label for="country"><h3>Country</h3></label>
+                <input type="text" name="country" id="country" placeholder="eg: India">
+            </div>
+            <div class="form-btns">
+                <button type="submit" class="form-btn submitbtn"><svg id="send-alt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="24" height="24"><path id="primary" d="M3.69,8.75,19.61,3.06a1,1,0,0,1,1.33,1.33L15.25,20.31a1,1,0,0,1-1.95,0l-2.51-6.52a1,1,0,0,0-.6-.6L3.67,10.7A1,1,0,0,1,3.69,8.75Zm6.93,4.63,3-3" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg><h3>Send!</h3></button>
+                <button type="reset" class="form-btn cancelbtn" onclick="closeForm()"><svg id="full-cross-circle-alt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="24" height="24"><path id="primary" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12ZM18.15,5.85,5.85,18.15" style="fill: none; stroke: rgb(0, 0, 128); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg><h3>Cancel</h3></button>
+            </div>
+        </form>
+    </section>
+
+    <a href="https://wa.me/919311763530/" target="_blank">
+        <img src="assets/img/whatsapp.png" alt="Chat with us" class="chatbtn">
+    </a>
+
+    <button class="quotation" onclick="openForm()"><svg id="information-chat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="36" height="36"><line id="primary-upstroke" x1="12.05" y1="8" x2="11.95" y2="8" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></line><path id="primary" d="M12,13v3M10.54,3.11A9,9,0,0,0,4,16.11l-.7,3.41A1,1,0,0,0,4.48,20.7L7.87,20h0A9,9,0,1,0,10.54,3.11Z" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg><h2>Get A Quote</h2></button>
+
+
+    <!-- Footer Starts Here -->
+    <footer>
+        <div class="footer-row">
+            <div class="footer-column branding-column">
+                <div class="footer-branding">
+                    <svg id="cloud-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="48" height="48"><path id="primary" d="M20.83,13A3,3,0,0,1,18,17H6a3,3,0,1,1,2-5.2A5,5,0,0,1,13,7a4.94,4.94,0,0,1,2,.42" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><polyline id="primary-2" data-name="primary" points="13 11 15 13 20 8" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></polyline></svg>
+                    <h2 class="brand-name">Cloud Magician</h2>
+                    <p class="poweredby">powered by TCS</p>
+                </div>
+                <br>
+                <p class="footer-desc"><strong>Cloud Magician Pvt. Ltd.</strong><br>
+                    Srikanthapur, Balasore,<br>Odisha-756001</p>
+            </div>
+            <div class="footer-column">
+                <div class="footer-heading"><h3>Company</h3><h4 class="down-arrow">&#x276E;</h4></div>
+                <a href="about.html" class="footer-link">About Us</a>
+                <a href="#" class="footer-link" onclick="openForm()">Contact</a>
+            </div>
+            <div class="footer-column">
+                <div class="footer-heading"><h3>Services</h3><h4 class="down-arrow">&#x276E;</h4></div>
+                <a href="#" class="footer-link" onclick="showPopup(1)">Cloud Migration</a>
+                <a href="#" class="footer-link" onclick="showPopup(2)">CI / CD</a>
+                <a href="#" class="footer-link" onclick="showPopup(3)">Security</a>
+                <a href="#" class="footer-link" onclick="showPopup(4)">Implementation / Monitoring</a>
+                <a href="#" class="footer-link" onclick="showPopup(5)">Code Testing & Bug Fixing</a>
+                <a href="#" class="footer-link" onclick="showPopup(6)">All AWS/Azure/GCP Services</a>
+            </div>
+            <div class="footer-column">
+                <div class="footer-heading"><h3>Important</h3><h4 class="down-arrow">&#x276E;</h4></div>
+                <a href="#" class="footer-link">Terms & Conditions</a>
+                <a href="#" class="footer-link">Privacy Policy</a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="footer-row">
+            <div class="social">
+                <p>Copyright 2022 Cloud Magician - All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/servicesdata.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

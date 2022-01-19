@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Industry leading cloud services at your fingertips.">
+    <meta name="theme-color" content="#6464FF">
+    <title>Cloud Magician</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <header id="navbar">
+        <nav>
+            <a href="#" class="branding"><svg id="cloud-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="48" height="48"><path id="cloud" d="M20.83,13A3,3,0,0,1,18,17H6a3,3,0,1,1,2-5.2A5,5,0,0,1,13,7a4.94,4.94,0,0,1,2,.42" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><polyline id="primary-2" data-name="primary" points="13 11 15 13 20 8" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></polyline></svg> &nbsp;&nbsp;&nbsp;<h1 class="brand-name">Cloud Magician</h1>&nbsp; &nbsp;<p class="poweredby">powered by TCS</p></a>
+            <div class="menu">
+                <a href="#" class="menu-links">Home</a>
+                <a href="services.html" class="menu-links" onmouseover="showservices()">Services</a>
+                <a href="about.html" class="menu-links">About Us</a>
+            </div>
+            <svg id="menu-alt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="36" height="36"><path id="primary" d="M3,18H21M3,12H21M3,6H21" style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero-left">
+            <h1>Secure and Cost Optimized DevOps</h1>
+            <p>We can help harness the real power of cloud with complete automation and security first approach</p>
+        </div>
+        <div class="hero-right">
+            <div class="hero-right-service circleone"><p>DevSecOps Enabled CI/CD Pipeline</p></div>
+            <div class="hero-right-service circletwo"><p>Fully Secure Infrastructure</p></div>
+            <div class="hero-right-service circlethree"><p>Regular Security Audits</p></div>
+            <div class="hero-right-service circlefour"><p>24/7 Automated Security Monitoring</p></div>
+        </div>
+    </section>
+    <section>
+        <div class="container1">
+            <div class="wrapper">
+                <h1 class="wrapper-title">Future Ready<br>DevSecOps Strategies</h1>
+                <p class="points">We are a team of DevOps and SecOps Automation Experts.</p>
+                <p class="points">Setting up comprehensive zero touch automation for DevOps and SecOps processes is our forte.</p>
+                <p class="points">We have organized ourselves to ensure - you can Rely on us for all DevOps and SecOps needs.</p>
+                <p class="points">We can help Maximize ROI on R&D and Infrastructure spend while reducing overall risks.</p>
+            </div>
+            <div class="experience">
+                <div class="experience-card">
+                    <img src="assets/img/experience.png" alt="7+ Years of Experience">
+                    <br>
+                    <p><strong>3+ years</strong> in accelerating business.</p>
+                </div>
+                <div class="experience-card">
+                    <img src="assets/img/team.png" alt="180+ Consultants">
+                    <br>
+                    <p><strong>15+ Full Stack</strong> DevOps consultants.</p>
+                </div>
+                <div class="experience-card">
+                    <img src="assets/img/project.png" alt="120+ projects">
+                    <br>
+                    <p><strong>35+ successful</strong> implementations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="section-title"><h1>Our Services</h1></div>
+        <div class="container2">
+            <div class="services-card" onclick="showPopup(1)">
+                <img src="assets/img/cloud-service.png" alt="Service" class="service-icon">
+                <br>
+                <h1 class="service-title">Cloud Migration</h1>
+                <p class="service-desc">We're here to help you in every step of bringing your business's technological infrastructure on cloud.</p>
+            </div>
+            <div class="services-card" onclick="showPopup(2)">
+                <img src="assets/img/atom.png" alt="Service" class="service-icon">
+                <br>
+                <h1 class="service-title">CI / CD</h1>
+                <p class="service-desc">CI/CD implementation using tools like Jenkins, Bitbucket, Gitlab, ArgoCD, Teamcity.</p>
+            </div>
+            <div class="services-card" onclick="showPopup(3)">
+                <img src="assets/img/encrypted.png" alt="Service" class="service-icon">
+                <br>
+                <h1 class="service-title">Security</h1>
+                <p class="service-desc">Experts in cyber security including Web Application Firewall (WAF) and Splunk.</p>
+            </div>
+            <div class="services-card" onclick="showPopup(4)">
+                <img src="assets/img/eye.png" alt="Service" class="service-icon">
+                <br>
+                <h1 class="service-title">Implementation / Monitoring</h1>
+                <p class="service-desc">Monitoring web servers using different tools like Prometheus, Grafana, Splunk, Newrelic etc.</p>
+            </div>
+            <div class="services-card" onclick="showPopup(5)">
+                <img src="assets/img/debug.png" alt="Service" class="service-icon">
+                <br>
+                <h1 class="service-title">Code Testing & Bug Fixing</h1>
+                <p class="service-desc">Code testing and bug fixing services using Sonarqube.</p>
+            </div>
+            <div class="services-card" onclick="showPopup(6)">
+                <img src="assets/img/cloud.png" alt="Service" class="service-icon">
+                <br>
+                <h1 class="service-title">All AWS/Azure/GCP Services</h1>
+                <p class="service-desc">We offer all kinds of AWS/Azure/Gcp services scale & automate your business</p>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section class="clients">
+        <div class="section-title"><h1 style="background: #FFF !important;">Our Top Clients</h1></div>
+        <div class="clients-wrapper">
+            <a href="https://www.samsung.com/in/" target="_blank"><img src="assets/img/samsung.jpg" alt="Samsung" class="clients-img"></a>
+            <a href="https://paytm.com/" target="_blank"><img src="assets/img/client2.png" alt="Paytm" class="clients-img"></a>
+            <a href="https://www.adobe.com/in/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Adobe_Corporate_Logo.png/1200px-Adobe_Corporate_Logo.png" alt="Adobe" class="clients-img"></a>
+            <a href="https://www.cisco.com/c/en_in/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/1200px-Cisco_logo_blue_2016.svg.png" alt="Cisco" class="clients-img"></a>
+            <a href="https://pharmeasy.in/" target="_blank"><img src="https://www.pngkey.com/png/full/968-9685760_get-flat-20-off-extra-15-paytm-cashback.png" alt="Pharmeasy" class="clients-img"></a>
+            <a href="https://drivewithdarby.com/" target="_blank"><img src="assets/img/darby.svg" alt="Darby" class="clients-img"></a>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="section-title"><h1 style="background: #FFF;">What Our Clients Say</h1></div>
+        <div class="clients-wrapper">
+            <div class="testimonial">
+                <p class="msg">Life signal has engaged with cloud Magician for about 3 year now.The team at cloud Magician is super talented and has significantly contributed to the success of our Devops and SRE teams. Love the capabilities and energy they bring in to work every day and i would be glad to engage more with cloud magician in upcoming projects. Good luck!!</p>
+                <br>
+                <!-- <p class="client-name"><strong>Name</strong></p> -->
+                <h3 class="company">Life Signal</h3>
+                <a href="https://lifesignals.com/"><img src="https://lifesignals.com/wp-content/uploads/2021/09/image-lifesignals_lifesignals-logo-light-blue-200x45.png" alt="Life Signals" class="testimonial-client-img"></a>
+            </div>
+            <div class="testimonial">
+                <p class="msg">Cloud magician has been a great partner in our growth stroy. We are using their services for the last 2 year and it has been a wonderful experience working with them.They are a team of passionate techies running the show. I found the team very committed in their job and highly orinted towards success of the prject and overall wonderful culture fit.</p>
+                <br>
+                <!-- <p class="client-name"><strong>Name</strong></p> -->
+                <h3 class="company">Darby</h3>
+                <a href="https://drivewithdarby.com/"><div class="testimonial-client-img darby"></div></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="popup-section">
+        <div class="popup-box">
+            <img src="assets/img/team.jpg" id="popup-img">
+            <br>
+            <div class="popup-content">
+                <h1 id="popup-title">Service Name</h1>
+                <p id="popup-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quis commodi voluptas facere dolores ex reprehenderit neque consequuntur quisquam. Blanditiis, natus culpa? Dolorum, ea neque.</p>
+            </div>
+            <br>
+            <div class="popup-btns">
+                <a href="#" class="getquote popupbtn" onclick="openForm()"><p>Get A Quote</p></a>
+                <a href="https://wa.me/919311763530/" class="popupchat popupbtn"><p>Chat With An Expert</p></a>
+            </div>
+        </div>
+        <div id="closebtn" onclick="hidePopup()"><p>X</p></div>
+    </section>
+
+    <section id="contact-section">
+        <h1>Expert advice, just a click away!</h1>
+        <p>Fill this short form and one of our executives will call you shortly.</p>
+        <form action="#" class="contact-form">
+            <div class="form-column">
+                <label for="name"><h3>Name</h3></label>
+                <input type="text" name="name" id="name" placeholder="eg: Tony Stark">
+            </div>
+            <div class="form-column">
+                <label for="email"><h3>Email</h3></label>
+                <input type="email" name="email" id="email" placeholder="eg: youremail@gmail.com">
+            </div>
+            <div class="form-column">
+                <label for="phone"><h3>Phone</h3></label>
+                <input type="tel" name="phone" id="phone" placeholder="eg: 9311763530">
+            </div>
+            <div class="form-column">
+                <label for="country"><h3>Country</h3></label>
+                <input type="text" name="country" id="country" placeholder="eg: India">
+            </div>
+            <div class="form-btns">
+                <button type="submit" class="form-btn submitbtn"><svg id="send-alt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="24" height="24"><path id="primary" d="M3.69,8.75,19.61,3.06a1,1,0,0,1,1.33,1.33L15.25,20.31a1,1,0,0,1-1.95,0l-2.51-6.52a1,1,0,0,0-.6-.6L3.67,10.7A1,1,0,0,1,3.69,8.75Zm6.93,4.63,3-3" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg><h3>Send!</h3></button>
+                <button type="reset" class="form-btn cancelbtn" onclick="closeForm()"><svg id="full-cross-circle-alt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="24" height="24"><path id="primary" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12ZM18.15,5.85,5.85,18.15" style="fill: none; stroke: rgb(0, 0, 128); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg><h3>Cancel</h3></button>
+            </div>
+        </form>
+    </section>
+
+    <a href="https://wa.me/919311763530/" target="_blank">
+        <img src="assets/img/whatsapp.png" alt="Chat with us" class="chatbtn">
+    </a>
+
+    <button class="quotation" onclick="openForm()"><svg id="information-chat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="36" height="36"><line id="primary-upstroke" x1="12.05" y1="8" x2="11.95" y2="8" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></line><path id="primary" d="M12,13v3M10.54,3.11A9,9,0,0,0,4,16.11l-.7,3.41A1,1,0,0,0,4.48,20.7L7.87,20h0A9,9,0,1,0,10.54,3.11Z" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg><h2>Get A Quote</h2></button>
+
+    <!-- Footer Starts Here -->
+    
+    <footer>
+        <div class="footer-row">
+            <div class="footer-column branding-column">
+                <div class="footer-branding">
+                    <svg id="cloud-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="48" height="48"><path id="primary" d="M20.83,13A3,3,0,0,1,18,17H6a3,3,0,1,1,2-5.2A5,5,0,0,1,13,7a4.94,4.94,0,0,1,2,.42" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><polyline id="primary-2" data-name="primary" points="13 11 15 13 20 8" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></polyline></svg>
+                    <h2 class="brand-name">Cloud Magician</h2>
+                    <p class="poweredby">powered by TCS</p>
+                </div>
+                <br>
+                <p class="footer-desc"><strong>Cloud Magician Pvt. Ltd.</strong><br>
+                    Srikanthapur, Balasore,<br>Odisha-756001</p>
+            </div>
+            <div class="footer-column">
+                <div class="footer-heading"><h3>Company</h3><h4 class="down-arrow">&#x276E;</h4></div>
+                <a href="about.html" class="footer-link">About Us</a>
+                <a href="#" class="footer-link" onclick="openForm()">Contact</a>
+            </div>
+            <div class="footer-column">
+                <div class="footer-heading"><h3>Services</h3><h4 class="down-arrow">&#x276E;</h4></div>
+                <a href="#" class="footer-link" onclick="showPopup(1)">Cloud Migration</a>
+                <a href="#" class="footer-link" onclick="showPopup(2)">CI / CD</a>
+                <a href="#" class="footer-link" onclick="showPopup(3)">Security</a>
+                <a href="#" class="footer-link" onclick="showPopup(4)">Implementation / Monitoring</a>
+                <a href="#" class="footer-link" onclick="showPopup(5)">Code Testing & Bug Fixing</a>
+                <a href="#" class="footer-link" onclick="showPopup(6)">All AWS/Azure/GCP Services</a>
+            </div>
+            <div class="footer-column">
+                <div class="footer-heading"><h3>Important</h3><h4 class="down-arrow">&#x276E;</h4></div>
+                <a href="#" class="footer-link">Terms & Conditions</a>
+                <a href="#" class="footer-link">Privacy Policy</a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="footer-row">
+            <div class="social">
+                <p>Copyright 2022 Cloud Magician - All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/servicesdata.js"></script>
+</body>
+</html>

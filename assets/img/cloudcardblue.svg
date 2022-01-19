@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="240"
+   height="150"
+   viewBox="0 0 63.5 39.687501"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="cloudcardblue.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="2.4865144"
+     inkscape:cx="128.49312"
+     inkscape:cy="80.232794"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path868"
+       style="fill:#6464ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:square;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 30.968775,3.309856 c -7.129667,0.00198 -13.322248,4.9060922 -14.95803,11.845572 -0.766299,-0.17072 -1.549002,-0.256915 -2.334088,-0.257065 -5.9338824,-5.12e-4 -10.7445326,4.809679 -10.7445881,10.743561 5.55e-5,5.933884 4.8107037,10.744079 10.7445881,10.743564 3.59882,-0.0022 33.70847,-0.2078 37.959066,-0.205566 4.538852,8.5e-5 8.53925,-4.72148 8.640753,-8.840985 0.101802,-4.131631 -3.679726,-9.283141 -8.218976,-9.283053 -0.518105,0.0018 -1.034877,0.05252 -1.543427,0.151575 0.04572,-0.261081 0.06905,-0.525602 0.06964,-0.790661 -2.23e-4,-2.563361 -2.078185,-4.641319 -4.641545,-4.641547 -0.252943,8.92e-4 -0.505388,0.02249 -0.754818,0.06453 C 42.818269,7.0742348 37.20208,3.3100165 30.968777,3.3098619 Z"
+       sodipodi:nodetypes="ccccccaccccccc"
+       inkscape:export-filename="C:\Users\Admin\Desktop\cloudcard.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
