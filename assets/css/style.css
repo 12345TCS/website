@@ -180,7 +180,7 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between !important;
 }
 input{
     padding: .5rem .75rem;
@@ -409,6 +409,7 @@ footer{
     margin-top: 0.75rem;
     width: 100%;
     color: aqua;
+    cursor: pointer;
 }
 
 .footer-branding{
@@ -482,6 +483,9 @@ footer{
         width: 95vw;
     }
 
+    .contact-form{
+        width: 95vw;
+    }
     
     .footer-row{
         flex-direction: column;
