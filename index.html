@@ -40,7 +40,7 @@
             <svg id="menu-alt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="36" height="36"><path id="primary" d="M3,18H21M3,12H21M3,6H21" style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg>
         </nav>
     </header>
-
+    <iframe id="hidden_iframe" class="hidden_iframe" name="hidden_iframe" frameborder="0" style="width: 100%; height: 0;"></iframe>
     <section class="hero" id="hero">
         <div class="hero-container">
             <div class="hero-container--left">
@@ -48,7 +48,7 @@
                 <p>We are the team that's supporting technological infrastructure of companies like Samsung & Cisco.</p>
             </div>
             <div class="hero-container--right">
-                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe_C3lYKu413viMU20SEBmbBhDxfRsXhSdxmssWeulWpcOY0g/formResponse" class="hero-form" method="post" target="hidden_iframe" onsubmit="showAlert()">
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe_C3lYKu413viMU20SEBmbBhDxfRsXhSdxmssWeulWpcOY0g/formResponse" class="hero-form" method="post" target="hidden_iframe" onsubmit="showHomeAlert()">
                     <div class="form-column">
                         <label for="name"><h3>Name</h3></label>
                         <input type="text" name="entry.858360133" id="name" placeholder="eg: Tony Stark">
@@ -250,5 +250,10 @@
     <script src="assets/js/navbar.js"></script>
     <script src="assets/js/index.js"></script>
     <script src="assets/js/servicesdata.js"></script>
+    <script>
+        function showHomeAlert(){
+            window.alert("We've received your details and we'll contact you soon.");
+        }
+    </script>
 </body>
 </html>
