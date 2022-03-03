@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="cmaglogo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.4489899"
+     inkscape:cx="197.10911"
+     inkscape:cy="381.9685"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     units="px"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path29815"
+       style="fill:#3e3eff;fill-opacity:1;stroke:none;stroke-width:2.01398;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 63.194603,31.342631 c -11.20563,0.008 -21.03104,7.48648 -24.02272,18.2854 -1.33344,-0.30587 -2.69711,-0.46043 -4.065196,-0.4607 -10.050505,-10e-5 -18.19807,8.14747 -18.197962,18.19796 2.65e-4,10.05023 8.147738,18.19737 18.197962,18.19727 6.043596,-0.001 53.803656,0.0906 58.153986,0.093 7.151957,2e-5 14.399527,-9.66466 14.334677,-17.10308 -0.0311,-3.56875 -1.01932,-8.29709 -3.6024,-11.2825 -2.21101,-2.55536 -5.771554,-4.52567 -9.031007,-5.0664 l -32.7283,19.18738 -11.67798,-12.09428 0.0341,-8.69446 12.27327,13.30988 24.42171,-14.10017 c -2.88173,-10.75508 -12.6749,-18.46869 -24.09011,-18.46921 z" />
+    <path
+       style="fill:#3e3eff;fill-opacity:1;stroke:none;stroke-width:2.01398;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 87.284653,49.811901 7.67729,2.39165 23.595337,-13.83301 -0.0228,-6.60119 z"
+       id="path35041" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.1112px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';letter-spacing:0px;word-spacing:0px;fill:#3e3eff;fill-opacity:1;stroke-width:0.410014"
+       x="12.301392"
+       y="104.02068"
+       id="text35334"><tspan
+         sodipodi:role="line"
+         id="tspan35332"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1112px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#3e3eff;fill-opacity:1;stroke-width:0.410014"
+         x="12.301392"
+         y="104.02068">CLOUD MAGICIAN</tspan></text>
+  </g>
+</svg>

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Industry leading cloud services at your fingertips.">
+    <meta name="description" content="Industry leading cloud services at your fingertips. Cloud Magician provides DevOps and SecOps services at affordable costs without compromising with the security">
+    <meta name="keywords" content="cloud magician, cloud, magician, services, cloud services, azure, aws, microsoft azure, microsoft, devops, devop, secop, secops, gcp, google cloud platform, gcp, google, platform">
     <meta name="theme-color" content="#6464FF">
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -30,7 +31,7 @@
 <body>
     <header id="navbar">
         <nav>
-            <a href="#" class="branding"><svg id="cloud-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="48" height="48"><path id="cloud" d="M20.83,13A3,3,0,0,1,18,17H6a3,3,0,1,1,2-5.2A5,5,0,0,1,13,7a4.94,4.94,0,0,1,2,.42" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><polyline id="primary-2" data-name="primary" points="13 11 15 13 20 8" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></polyline></svg> &nbsp;&nbsp;&nbsp;<h1 class="brand-name">Cloud Magician</h1>&nbsp; &nbsp;<p class="poweredby">powered by TCS</p></a>
+            <a href="#" class="branding"><img src="assets/img/logowhite.png" alt="Cloud Magician" class="nav-logo"> &nbsp;&nbsp;&nbsp;<h1 class="brand-name">Cloud Magician</h1>&nbsp; &nbsp;<p class="poweredby">powered by TCS</p></a>
             <div class="menu">
                 <a href="#" class="menu-links">Home</a>
                 <a href="services.html" class="menu-links" onmouseover="showservices()">Services</a>
@@ -41,17 +42,39 @@
     </header>
 
     <section class="hero" id="hero">
-        <div class="hero-left">
-            <h1>Secure and Cost Optimized DevOps</h1>
-            <p>We can help harness the real power of cloud with complete automation and security first approach</p>
+        <div class="hero-container">
+            <div class="hero-container--left">
+                <h1>DevOps and SecOps<br>Services At<br>Your Fingertips</h1>
+                <p>We are the team that's supporting technological infrastructure of companies like Samsung & Cisco.</p>
+            </div>
+            <div class="hero-container--right">
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe_C3lYKu413viMU20SEBmbBhDxfRsXhSdxmssWeulWpcOY0g/formResponse" class="hero-form" method="post" target="hidden_iframe" onsubmit="showAlert()">
+                    <div class="form-column">
+                        <label for="name"><h3>Name</h3></label>
+                        <input type="text" name="entry.858360133" id="name" placeholder="eg: Tony Stark">
+                    </div>
+                    <div class="form-column">
+                        <label for="email"><h3>Email</h3></label>
+                        <input type="email" name="entry.1143132323" id="email" placeholder="eg: youremail@gmail.com">
+                    </div>
+                    <div class="form-column">
+                        <label for="phone"><h3>Phone</h3></label>
+                        <input type="tel" name="entry.2371021" id="phone" placeholder="eg: 9311763530">
+                    </div>
+                    <div class="form-column">
+                        <label for="country"><h3>Country</h3></label>
+                        <input type="text" name="entry.813592062" id="country" placeholder="eg: India">
+                    </div>
+                    <div class="form-btns">
+                        <button type="submit" class="form-btn submitbtn"><svg id="send-alt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="24" height="24"><path id="primary" d="M3.69,8.75,19.61,3.06a1,1,0,0,1,1.33,1.33L15.25,20.31a1,1,0,0,1-1.95,0l-2.51-6.52a1,1,0,0,0-.6-.6L3.67,10.7A1,1,0,0,1,3.69,8.75Zm6.93,4.63,3-3" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg><h3>Send!</h3></button>
+                        <button type="reset" class="form-btn cancelbtn"><svg id="full-cross-circle-alt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="24" height="24"><path id="primary" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12ZM18.15,5.85,5.85,18.15" style="fill: none; stroke: rgb(0, 0, 128); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg><h3>Cancel</h3></button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="hero-right">
-            <div class="hero-right-service circleone"><p>DevSecOps Enabled CI/CD Pipeline</p></div>
-            <div class="hero-right-service circletwo"><p>Fully Secure Infrastructure</p></div>
-            <div class="hero-right-service circlethree"><p>Regular Security Audits</p></div>
-            <div class="hero-right-service circlefour"><p>24/7 Automated Security Monitoring</p></div>
-        </div>
+        <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 260"><path fill="#F0FFFF" fill-opacity="1" d="M0,224L48,213.3C96,203,192,181,288,186.7C384,192,480,224,576,229.3C672,235,768,213,864,213.3C960,213,1056,235,1152,240C1248,245,1344,235,1392,229.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
+    <br><br>
     <section>
         <div class="container1">
             <div class="wrapper">
@@ -170,39 +193,11 @@
         <div id="closebtn" onclick="hidePopup()"><p>X</p></div>
     </section>
 
-    <section id="contact-section">
-        <iframe class="hidden_iframe" frameborder="0" name="hidden_iframe" id="hidden_iframe"></iframe>
-        <h1>Expert advice, just a click away!</h1>
-        <p>Fill this short form and one of our executives will call you shortly.</p>
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe_C3lYKu413viMU20SEBmbBhDxfRsXhSdxmssWeulWpcOY0g/formResponse" class="contact-form" method="post" target="hidden_iframe" onsubmit="showAlert()">
-            <div class="form-column">
-                <label for="name"><h3>Name</h3></label>
-                <input type="text" name="entry.858360133" id="name" placeholder="eg: Tony Stark">
-            </div>
-            <div class="form-column">
-                <label for="email"><h3>Email</h3></label>
-                <input type="email" name="entry.1143132323" id="email" placeholder="eg: youremail@gmail.com">
-            </div>
-            <div class="form-column">
-                <label for="phone"><h3>Phone</h3></label>
-                <input type="tel" name="entry.2371021" id="phone" placeholder="eg: 9311763530">
-            </div>
-            <div class="form-column">
-                <label for="country"><h3>Country</h3></label>
-                <input type="text" name="entry.813592062" id="country" placeholder="eg: India">
-            </div>
-            <div class="form-btns">
-                <button type="submit" class="form-btn submitbtn"><svg id="send-alt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="24" height="24"><path id="primary" d="M3.69,8.75,19.61,3.06a1,1,0,0,1,1.33,1.33L15.25,20.31a1,1,0,0,1-1.95,0l-2.51-6.52a1,1,0,0,0-.6-.6L3.67,10.7A1,1,0,0,1,3.69,8.75Zm6.93,4.63,3-3" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg><h3>Send!</h3></button>
-                <button type="reset" class="form-btn cancelbtn" onclick="closeForm()"><svg id="full-cross-circle-alt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="24" height="24"><path id="primary" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12ZM18.15,5.85,5.85,18.15" style="fill: none; stroke: rgb(0, 0, 128); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg><h3>Cancel</h3></button>
-            </div>
-        </form>
-    </section>
-
     <a href="https://wa.me/919311763530/" target="_blank">
         <img src="assets/img/whatsapp.png" alt="Chat with us" class="chatbtn">
     </a>
 
-    <button class="quotation" onclick="openForm()"><svg id="information-chat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="36" height="36"><line id="primary-upstroke" x1="12.05" y1="8" x2="11.95" y2="8" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></line><path id="primary" d="M12,13v3M10.54,3.11A9,9,0,0,0,4,16.11l-.7,3.41A1,1,0,0,0,4.48,20.7L7.87,20h0A9,9,0,1,0,10.54,3.11Z" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg><h2>Get A Quote</h2></button>
+    <a class="quotation" href="#hero"><svg id="information-chat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="36" height="36"><line id="primary-upstroke" x1="12.05" y1="8" x2="11.95" y2="8" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></line><path id="primary" d="M12,13v3M10.54,3.11A9,9,0,0,0,4,16.11l-.7,3.41A1,1,0,0,0,4.48,20.7L7.87,20h0A9,9,0,1,0,10.54,3.11Z" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg><h2>Get A Quote</h2></a>
 
     <!-- Footer Starts Here -->
     
@@ -210,7 +205,7 @@
         <div class="footer-row">
             <div class="footer-column branding-column">
                 <div class="footer-branding">
-                    <svg id="cloud-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="48" height="48"><path id="primary" d="M20.83,13A3,3,0,0,1,18,17H6a3,3,0,1,1,2-5.2A5,5,0,0,1,13,7a4.94,4.94,0,0,1,2,.42" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><polyline id="primary-2" data-name="primary" points="13 11 15 13 20 8" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></polyline></svg>
+                    <img src="assets/img/logowhite.png" alt="Cloud Magician" class="nav-logo">
                     <h2 class="brand-name">Cloud Magician</h2>
                     <p class="poweredby">powered by TCS</p>
                 </div>

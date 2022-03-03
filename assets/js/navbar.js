@@ -6,19 +6,6 @@ const allservices = document.getElementById("all-services");
 const dwidth = screen.width;
 var clicks = 0;
 
-function showservices(){
-    allservices.style.display = "flex";
-}
-
-function hideservices(){
-    allservices.style.display = "none";
-}
-
-document.getElementById("hero").addEventListener("click", () =>{
-    allservices.style.display = "none";
-})
-
-
 menu.addEventListener("click", () =>{
     clicks++;
     if(clicks % 2 != 0){
