@@ -65,7 +65,7 @@
     bottom: 0;
     object-fit: cover;
     object-position: top;
-    z-index: 5;
+    z-index: 10;
 }
 
 
