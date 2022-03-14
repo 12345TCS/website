@@ -11,7 +11,7 @@ menu.addEventListener("click", () =>{
     if(clicks % 2 != 0){
         menu.style.background = "#FFF";
         menuStrokes.style.stroke = "#6464FF"
-        navbar.style.height = "30vh";
+        navbar.style.height = "32vh";
     }
     else{
         menu.style.background = "#6464FF";
