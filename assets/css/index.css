@@ -194,6 +194,13 @@
     font-weight: 400;
     text-align: center;
 }
+.process-arrow{
+    position: absolute;
+    top: .5rem;
+    left: 6rem;
+    width: 280px;
+    height: auto;
+}
 .process-content{
     max-width: 70%;
     text-align: center;
@@ -408,6 +415,9 @@
     .process-card{
         width: 100%;
         margin: 5rem 0 0 0;
+    }
+    .process-arrow{
+        display: none;
     }
     .process-content{
         max-width: 100%;
