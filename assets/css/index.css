@@ -51,6 +51,7 @@
     padding: 2rem 1.5rem;
     border-radius: 16px;
     background-color: rgb(110, 110, 253);
+    z-index: 50;
 }
 .hero-form label{
     color: #FFF;
