@@ -245,7 +245,7 @@ input{
     color: #FFF !important;
     box-shadow: 2px 2px 8px rgb(72, 72, 255);
     cursor: pointer;
-    z-index: 10;
+    z-index: 100;
     transition: all .5s ease;
 }
 .quotation:hover{
@@ -259,7 +259,7 @@ input{
     width: 64px;
     height: auto;
     filter: drop-shadow(1px 1px 4px green);
-    z-index: 10;
+    z-index: 100;
     transition: all .3s ease;
 }
 .chatbtn:hover{
