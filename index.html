@@ -49,7 +49,7 @@
                 <p>We are the team that's supporting technological infrastructure of companies like Samsung & Cisco.</p>
             </div>
             <div class="hero-container--right" id="contactform">
-                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe_C3lYKu413viMU20SEBmbBhDxfRsXhSdxmssWeulWpcOY0g/formResponse" class="hero-form" method="post" target="hidden_iframe" onsubmit="showHomeAlert()">
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe_C3lYKu413viMU20SEBmbBhDxfRsXhSdxmssWeulWpcOY0g/formResponse" class="hero-form" id="heroform" method="post" target="hidden_iframe" onsubmit="showHomeAlert()">
                     <div class="form-column">
                         <label for="name"><h3>Name</h3></label>
                         <input type="text" name="entry.858360133" id="name" placeholder="eg: Tony Stark">
@@ -281,6 +281,7 @@
     <script>
         function showHomeAlert(){
             window.alert("We've received your details and we'll contact you soon.");
+            document.getElementById("heroform").reset();
         }
     </script>
 </body>
