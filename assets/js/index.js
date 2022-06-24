@@ -1,4 +1,5 @@
 const form = document.getElementById("contact-section");
+var formclicks = 0;
 
 /*
 window.addEventListener("load", ()=>{
