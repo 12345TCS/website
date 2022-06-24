@@ -25,7 +25,6 @@ function openForm(){
     }
 }
 
-
 function showAlert(){
     window.alert("We've received your details and we'll contact you soon.");
     setTimeout(closeForm, 2000);
